@@ -4,8 +4,8 @@ import com.calculator.laFameuse.operations.Operation;
 
 public abstract class OperationTwoArguments implements Operation {
 
-private double number;
-private double number2;
+protected double number;
+protected double number2;
 
     public double getNumber() {
         return number;
