@@ -1,6 +1,5 @@
 package com.calculator.laFameuse.operation.withTwoArguments;
 
-import com.calculator.laFameuse.operations.Operation;
 
 public  class Addition extends OperationTwoArguments {
 private double number;
