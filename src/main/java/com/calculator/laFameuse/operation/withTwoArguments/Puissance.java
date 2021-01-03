@@ -1,6 +1,6 @@
 package com.calculator.laFameuse.operation.withTwoArguments;
 
-public class Puissance extends OperationWithTwoFieldEntry {
+public class Puissance implements Operation {
 private double number;
 private double number2;
 
@@ -28,8 +28,4 @@ private double number2;
     }
 
 
-    @Override
-    public double operation(Operation operation, Operation operation2) {
-        return Math.pow(operation.operation(),operation2.operation());
-    }
 }

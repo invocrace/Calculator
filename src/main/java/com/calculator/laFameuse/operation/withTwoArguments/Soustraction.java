@@ -1,6 +1,6 @@
 package com.calculator.laFameuse.operation.withTwoArguments;
 
-public class Soustraction extends OperationWithTwoFieldEntry{
+public class Soustraction implements Operation{
     private double number;
     private double number2;
 
@@ -26,8 +26,4 @@ public class Soustraction extends OperationWithTwoFieldEntry{
 
     }
 
-    @Override
-    public double operation(Operation operation, Operation operation2) {
-        return operation.operation() - operation2.operation();
-    }
 }

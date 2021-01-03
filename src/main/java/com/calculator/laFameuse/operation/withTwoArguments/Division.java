@@ -1,6 +1,6 @@
 package com.calculator.laFameuse.operation.withTwoArguments;
 
-public class Division extends OperationWithTwoFieldEntry {
+public class Division implements Operation {
     private double number;
     private double number2;
 
@@ -31,13 +31,6 @@ public class Division extends OperationWithTwoFieldEntry {
         }
     }
 
-    @Override
-    public double operation(Operation operation, Operation operation2) {
-        if (operation2.operation() != 0) {
-            return operation.operation() / operation2.operation();
-        }else
-        {throw new IllegalArgumentException("problème de division");
-        }
-    }
+
 }
 

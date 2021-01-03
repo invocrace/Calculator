@@ -1,6 +1,6 @@
 package com.calculator.laFameuse.operation.withTwoArguments;
 
-public  class Addition extends OperationWithTwoFieldEntry {
+public  class Addition implements Operation {
 private double number;
 private double number2;
 
@@ -25,8 +25,5 @@ private double number2;
     return this.number + this.number2;
     }
 
-    @Override
-    public double operation(Operation operation, Operation operation2) {
-        return operation.operation() + operation2.operation();
-    }
+
 }

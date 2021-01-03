@@ -18,18 +18,4 @@ public class AdditionTest {
         assertEquals(8.0,addition.operation(),0.000001);
     }
 
-    @Test
-    public void additionWithRwoOperationArgumentsTest() {
-        Addition operationMother = new Addition();
-
-        Operation operation1 = Mockito.mock(Operation.class);
-        Mockito.doReturn(8.0).when(operation1).operation();
-
-        Operation operation2 = Mockito.mock(Operation.class);
-        Mockito.doReturn(8.0).when(operation2).operation();
-
-        assertEquals(16.0, operationMother.operation(operation1,operation2),0.0001);
-
-    }
-
 }
