@@ -2,7 +2,6 @@ package com.calculator.laFameuse.operation.withTwoArguments;
 
 
 import org.junit.Test;
-import org.mockito.Mockito;
 
 import static org.junit.Assert.assertEquals;
 
