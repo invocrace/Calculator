@@ -7,6 +7,14 @@ public class MultipleOperations {
     Operation operation2;
     Operation operation3;
 
+    public OperationTwoArguments getOperationMother() {
+        return operationMother;
+    }
+
+    public void setOperationMother(OperationTwoArguments operationMother) {
+        this.operationMother = operationMother;
+    }
+
     public Operation getOperation2() {
         return operation2;
     }

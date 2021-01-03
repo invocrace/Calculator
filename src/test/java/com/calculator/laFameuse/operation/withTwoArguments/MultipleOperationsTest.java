@@ -10,9 +10,14 @@ public class MultipleOperationsTest {
     @Test
     public void shouldChainSomeOperations(){
         Operation operation = new Addition();
-        double res1;
-        double res2;
+        Operation operation2 = new Soustraction();
+        OperationTwoArguments operationMother = new Addition();
+        MultipleOperations multipleOperations = new MultipleOperations();
 
-        assertEquals(8,operation.operation(),0.0001);
+        multipleOperations.setOperation2(operation);
+        multipleOperations.setOperation3(operation2);
+        multipleOperations.setOperationMother(operationMother);
+
+        assertEquals(8,multipleOperations.multipleOperations(),0.0000001);
     }
 }
