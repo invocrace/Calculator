@@ -1,17 +1,11 @@
 package com.calculator.laFameuse.operation.withTwoArguments;
 
+import com.calculator.laFameuse.operations.Operation;
+
 public class MultipleOperations {
-    Operation operation;
+    OperationTwoArguments operationMother;
     Operation operation2;
     Operation operation3;
-
-    public Operation getOperation() {
-        return operation;
-    }
-
-    public void setOperation(Operation operation) {
-        this.operation = operation;
-    }
 
     public Operation getOperation2() {
         return operation2;
@@ -29,10 +23,10 @@ public class MultipleOperations {
         this.operation3 = operation3;
     }
 
-    public Operation multipleOperations(){
+    public double multipleOperations(){
         double res1 = this.operation2.operation();
         double res2 = this.operation3.operation();
 
-        return this.operation.operation(res1,res2);
+       return operationMother.operation(res1,res2);
     }
 }

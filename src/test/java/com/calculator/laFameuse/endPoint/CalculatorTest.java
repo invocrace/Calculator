@@ -1,7 +1,6 @@
 package com.calculator.laFameuse.endPoint;
 
-import com.calculator.laFameuse.operation.withTwoArguments.Addition;
-import com.calculator.laFameuse.operation.withTwoArguments.Operation;
+import com.calculator.laFameuse.operations.Operation;
 import org.junit.Test;
 import org.mockito.Mockito;
 

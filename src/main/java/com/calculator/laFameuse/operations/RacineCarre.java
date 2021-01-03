@@ -1,7 +1,5 @@
 package com.calculator.laFameuse.operations;
 
-import com.calculator.laFameuse.operation.withTwoArguments.Operation;
-
 public class RacineCarre implements Operation {
 
     private double number;

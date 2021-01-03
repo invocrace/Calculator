@@ -1,6 +1,6 @@
 package com.calculator.laFameuse.endPoint;
 
-import com.calculator.laFameuse.operation.withTwoArguments.Operation;
+import com.calculator.laFameuse.operations.Operation;
 
 public class Calculator {
 

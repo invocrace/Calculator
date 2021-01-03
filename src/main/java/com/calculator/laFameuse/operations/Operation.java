@@ -1,4 +1,4 @@
-package com.calculator.laFameuse.operation.withTwoArguments;
+package com.calculator.laFameuse.operations;
 
 @FunctionalInterface
 public interface Operation {

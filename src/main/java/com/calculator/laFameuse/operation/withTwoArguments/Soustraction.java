@@ -1,6 +1,8 @@
 package com.calculator.laFameuse.operation.withTwoArguments;
 
-public class Soustraction implements Operation{
+import com.calculator.laFameuse.operations.Operation;
+
+public class Soustraction implements Operation {
     private double number;
     private double number2;
 

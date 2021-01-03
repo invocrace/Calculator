@@ -1,5 +1,7 @@
 package com.calculator.laFameuse.operation.withTwoArguments;
 
+import com.calculator.laFameuse.operations.Operation;
+
 public class Multiplication implements Operation {
 private double number;
 private double number2;

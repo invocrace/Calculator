@@ -1,5 +1,6 @@
 package com.calculator.laFameuse.operation.withTwoArguments;
 
+import com.calculator.laFameuse.operations.Operation;
 import org.junit.Test;
 
 import static org.junit.Assert.assertEquals;
