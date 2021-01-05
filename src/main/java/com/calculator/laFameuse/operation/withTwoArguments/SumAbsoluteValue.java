@@ -1,18 +1,17 @@
 package com.calculator.laFameuse.operation.withTwoArguments;
 
 import com.calculator.laFameuse.operations.Operation;
-import javafx.util.Pair;
+import org.apache.commons.lang3.tuple.Pair;
 
 import java.util.ArrayList;
 
 import java.util.List;
 
-import java.util.stream.Stream;
-
 
 public class SumAbsoluteValue implements Operation {
     ArrayList<Double> list1;
     ArrayList<Double> list2;
+
 
     public List<Double> getList1() {
         return list1;
@@ -30,33 +29,35 @@ public class SumAbsoluteValue implements Operation {
         this.list2 = list2;
     }
 
-    private double calculValueAbsolut(double number){
+    private double calculValueAbsolut(double number) {
         return Math.abs(number);
     }
 
-    private boolean isPaire(double number){
+    private boolean isPaire(double number) {
         return number % 2 == 0;
     }
 
-    private boolean verify(double number){
+    private double verify(double number) {
 
-            return isPaire(calculValueAbsolut(number));
+        if (isPaire(calculValueAbsolut(number))) ;
+        return calculValueAbsolut(number);
     }
 
 
     @Override
     public double operation() {
-    Pair<ArrayList,ArrayList> pair= new Pair<ArrayList,ArrayList>(list1,list2);
-
-    Stream.of(pair)
-            .map( Pair::getKey)
-            .map( i -> verify(getList1().get(i)) + verify(getList2().get(i)));
 
 
+        for (int i = 0 ; i<list1.size();i++) {
+            Pair<Double,Double> nouvellePair = new Pair(). <Double, Double>(list1.get(i), list2.get(i))) {
 
+            }
+            List<Pair<Double, Double>> pairList = new ArrayList<Pair<Double, Double>>();
+        }
 
-
-        return 0;
 
     }
+
+
+
 }
