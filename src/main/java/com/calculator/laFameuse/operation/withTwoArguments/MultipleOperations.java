@@ -1,4 +1,4 @@
-package com.calculator.laFameuse.endPoint;
+package com.calculator.laFameuse.operation.withTwoArguments;
 
 import com.calculator.laFameuse.operation.withTwoArguments.OperationTwoArguments;
 import com.calculator.laFameuse.operations.Operation;

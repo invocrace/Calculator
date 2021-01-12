@@ -1,6 +1,5 @@
 package com.calculator.laFameuse.operation.withTwoArguments;
 
-import com.calculator.laFameuse.endPoint.MultipleOperations;
 import com.calculator.laFameuse.operations.Operation;
 import org.junit.Test;
 import org.mockito.Mockito;
